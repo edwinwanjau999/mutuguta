@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Mind Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+</style>
+<body>
+    <header>
+        <h1>My Creative Mind Blog</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to My Blog</h2>
+            <p><i>Exploring the depths of creativity and beyond.</i></p>
+            <img src="silhouette-african-safari-scene-animals-260nw-519784624.webp" alt=""height="900" width="1500">
+        </section>
+        <section id="about">
+            <h2>About Safari</h2>
+            <p>The original safari dates back to the 14th century when Arabs made trading trips to east Africa. 
+                They weren't interested in wildlife back then as their primary focus was trade, but these journeys, 
+                like classic safaris, were planned for months, hence the term safari.</p>
+        </section>
+        <section id="blog">
+            <h2>More about safari</h2>
+            <p>Hosted Royalties
+                Queen Elizabeth II was not the only royal to have gone on a safari adventure in Kenya.
+                 In fact, a great number of royals have also made the journey to this African gem to 
+                 catch a glimpse of the big five. Following his mother’s footsteps, Prince Charles has
+                  also visited the Masai Mara national reserve, where he camped on the hills of Ol Donyo
+                   Oseyia. You’d also be interested to know that Kenya is also where Prince William 
+                   proposed to then Kate Middleton while on a safari in 2010!</p>
+
+            <p>
+                <h2><i>In addition safari...has</i></h2>
+               <ol>
+                <li>
+            Maasai Mara National Reserve: </br>
+            One of Kenya's most famous safari destinations, Maasai Mara is known 
+            for the annual wildebeest migration, where millions of wildebeest, zebras, and other antelopes migrate 
+            from Tanzania's Serengeti to Kenya's Maasai Mara in search of greener pastures.</li>
+
+            <li>Big Five: </br>
+            Kenya is home to the Big Five game animals: lion, elephant, buffalo, leopard, and rhinoceros.
+             Seeing all of these majestic animals in their natural habitat is a highlight of any Kenyan safari.</li>
+             <img src="big-five-africa-lion-elephant-260nw-475025365.webp" alt="" height="400" width="500">
+
+            <li>Mount Kenya: </br>
+            Kenya's highest mountain, Mount Kenya, offers a unique safari experience for those interested in m
+            ountain climbing and trekking. It's also surrounded by protected areas that are home to various wildlife 
+            species.</li>
+            <img src="Serengeti-Pioneer-Camp.jpg" alt="" height="400" width="500">
+
+            <li>Amboseli National Park:</br>
+                 Known for its large herds of elephants and stunning views of Mount Kilimanjaro, 
+                Amboseli National Park provides an iconic backdrop for safari experiences in Kenya.</li>
+                <img src="Serengeti-Pioneer-Camp.jpg" alt="" height="400" width="500">
+             <li> Encounters:</br>
+                 Kenyan safaris often include opportunities to visit local communities such as the Maasai 
+                and Samburu tribes, providing insights into their traditional way of life, culture, and customs.</li>
+                <img src="lake-naivasha-walking-giraffe-cropped-1.jpg" alt="" height="400" width="500">
+             <li>Birdwatching Paradise: </br>
+                With over 1,000 species of birds, Kenya is a paradise for birdwatchers. From colorful 
+                kingfishers to majestic eagles, the country's diverse habitats offer ample opportunities for birdwatching enthusiasts.</li>
+                <img src="download (1).jpeg" alt="" height="400" width="500">
+              <li>Great Rift Valley: </br>
+                The Great Rift Valley, which runs through Kenya, offers breathtaking scenery and unique geological 
+                formations. Many safari itineraries include stops at viewpoints overlooking the valley.</li>
+                <img src="beautiful-landscape-rift-valley-photographed-260nw-375138130.webp" alt="" height="400" width="500">
+             <li>Tsavo National Parks: </br>
+                Tsavo East and Tsavo West National Parks together form one of the largest wildlife sanctuaries in 
+                the world, offering a rugged and remote safari experience with diverse landscapes and wildlife.</li>
+                <img src="download (2).jpeg" alt="" height="400" width="500">
+            <li>Luxury Safari Lodges: </br>
+                Kenya boasts a wide range of luxury safari lodges and tented camps, providing guests with unparalleled c
+                omfort and service amidst the wilderness.</li>
+                <img src="istockphoto-182198380-612x612.jpg" alt="" height="400" width="500">
+              <li>Conservation Efforts:</br>
+                 Kenya has been at the forefront of wildlife conservation efforts, with numerous national parks, 
+              reserves, and community-based conservation initiatives aimed at protecting its diverse ecosystems and wildlife species.
+                </li>
+               </ol>
+            </p>
+            <div id="posts">
+
+                <!-- Blog posts will be dynamically added here -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Have any questions or just want to say hi? Feel free to reach out to me!</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Creative Mind Blog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
